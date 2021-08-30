@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+hgroup, menu, nav, section {
+	display: inline-block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header, footer{
+    background-color: #01012c;
+    font-size: 32px;
+    color:green;
+}
+nav{
+    display: block;
+    text-align: right;
+    color: white;
+	padding-bottom: 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 12px;
+	margin: 5px;
+	text-align: right;
+	
+
+}
+aside{
+     background-color: #3a95ca;
+	 margin: 39px;
+	 padding: 12px;
+	 width: 28%;
+	 height: 700px;
+	 
+
+}
+div{
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	
+}
+h2{
+	font-weight: 800;
+	margin-left: 14px;
+}
+.border{
+	border: 2px solid orangered;
+	color: orangered;
+}
+.logout{
+	display: flex;
+	align-items: flex-end;
+	align-self: flex-end;
+	margin-top: 390px;
+	width: 290px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.container{
+	width: 65%;
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 41px;
+	
+}
+.read-more{
+	background-color: green;
+	color: white;
+	width: 150px;
+	
+}
+h3{
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.space{
+	margin-bottom: 10px;
+}
+.width{
+	width: 900px;
+	margin-bottom: 12px;
+}
